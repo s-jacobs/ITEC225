@@ -16,15 +16,6 @@ Plotly.d3.csv(d1, function(err, rows){
     }
     
     
-//    var t2 = {
-//        type: "scatter",
-//        mode: "lines",
-//        name: 'France Covid Deaths',
-//        x: unpack(rows, 'date'),
-//        y: unpack(rows, 'deaths'),
-//        line: {color: 'red'}
-//    }
-    
     var data = [t1];
     
     var layout = {
